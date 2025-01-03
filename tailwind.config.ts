@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        aeonic: ["var(--font-aeonic-regular)"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
