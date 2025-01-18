@@ -57,12 +57,12 @@ const LightRays: React.FC<LightRaysProps> = ({
               opacity: 0,
             }}
             animate={{
-              opacity: 1,
+              opacity: 70,
             }}
             transition={{
-              duration: 4,
+              duration: 6,
               ease: "easeInOut",
-              delay: stagger ? 0.3 + index * 0.2 : 0.3,
+              delay: stagger ? 0.3 + index * 0.3 : 0.3,
             }}
             className={twMerge(
               clsx(
@@ -77,7 +77,7 @@ const LightRays: React.FC<LightRaysProps> = ({
               transform: rotation,
               mixBlendMode: "plus-lighter",
               willChange: "transform, opacity",
-              opacity: 1,
+              opacity: 70,
             }}
             key={index}
           ></motion.div>
