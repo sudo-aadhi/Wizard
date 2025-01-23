@@ -4,7 +4,7 @@ import LightRays from "@/app/components/rays/LightRays";
 import Badge from "@/app/components/badge/Badge";
 import Hero from "@/app/components/hero/Hero";
 // import Keyboard from "../keyboard/Keyboard";
-// import Brands from "../brands/Brands";
+import Brands from "../brands/Brands";
 import HeroClip from "../heroclip/HeroClip";
 
 const Origin = () => {
@@ -14,6 +14,7 @@ const Origin = () => {
       <Badge />
       <Hero />
       <HeroClip />
+      <Brands />
     </div>
   );
 };

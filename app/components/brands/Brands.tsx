@@ -16,15 +16,6 @@ import { BrandVectorProp as vectors } from "@/config/config";
   - Animation for vectors is triggered only after the second div is visible.
 */
 
-const scrollVisibleVariant = {
-  visible: {
-    opacity: 1,
-  },
-  hidden: {
-    opacity: 0,
-  },
-};
-
 const blurOpacityVariant = {
   hidden: {
     opacity: 0,
@@ -49,19 +40,7 @@ const Brands = () => {
   });
 
   return (
-    <motion.div
-      className="flex items-center justify-center w-[1057px] h-[178px] absolute top-[1500px]"
-      variants={scrollVisibleVariant}
-      initial="hidden"
-      whileInView="visible"
-      transition={{
-        duration: 1.5,
-        ease: "easeInOut",
-      }}
-      viewport={{
-        once: true,
-      }}
-    >
+    <motion.div className="flex items-center justify-center w-[1057px] h-[178px] absolute top-[1327px]">
       <div
         className="flex flex-col items-center justify-between w-[957px] h-[94px]"
         ref={secondDivRef} // Attach the ref to the second div
