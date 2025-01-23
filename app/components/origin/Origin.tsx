@@ -3,9 +3,8 @@ import React from "react";
 import LightRays from "@/app/components/rays/LightRays";
 import Badge from "@/app/components/badge/Badge";
 import Hero from "@/app/components/hero/Hero";
-// import Keyboard from "../keyboard/Keyboard";
-import Brands from "../brands/Brands";
-import HeroClip from "../heroclip/HeroClip";
+import Brands from "@/app/components/brands/Brands";
+import HeroClip from "@/app/components/heroclip/HeroClip";
 
 const Origin = () => {
   return (

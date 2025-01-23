@@ -1,11 +1,40 @@
+"use client";
+import { motion } from "motion/react";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 
 const HeroClip = () => {
+  const [isOver, setIsOver] = useState(false);
+
   return (
-    <div className="flex items-center justify-center w-[1236px] h-[786px] absolute top-[424px] -z-0">
+    <motion.div
+      className="flex items-center justify-center w-[1236px] h-[786px] absolute top-[424px] -z-0"
+      initial={{
+        opacity: 0,
+        y: 13,
+      }}
+      animate={{
+        opacity: 1,
+        y: 0,
+      }}
+      transition={{
+        duration: 1.5,
+        ease: "easeInOut",
+        delay: 2,
+      }}
+    >
       <div className="flex items-center justify-center absolute w-[1236px] h-[786px] bg-gradient-to-b from-transparent to-[#040313] z-10 rounded-t-[36px]">
-        <div className="flex items-center justify-center w-full h-[120px]">
+        <motion.div
+          className="flex items-center justify-center w-full h-[120px]"
+          onMouseEnter={() => setIsOver((prev) => !prev)}
+          whileHover={{
+            scale: 1.1,
+          }}
+          transition={{
+            duration: 0.5,
+            ease: "easeInOut",
+          }}
+        >
           <div className="flex items-center justify-center w-[120px] h-[120px] rounded-full bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-[1.5px] bg-opacity-0 border border-[#ffffff08] shadow-md">
             <div className="flex items-center justify-center w-[80px] h-[80px] rounded-full bg-[#4d4c6f] bg-clip-padding backdrop-filter backdrop-blur-3xl bg-opacity-10 border border-[#ffffff12] shadow-md">
               <svg
@@ -28,7 +57,7 @@ const HeroClip = () => {
               </svg>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
       <div className="flex items-center justify-center w-[1216px] h-[766px] border border-[#242332] rounded-t-[36px] bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-5">
         <div className="flex items-center justify-center w-[1195px] h-[747px] border-2 border-[#242332] rounded-t-[24px] bg-gray-700 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-5 overflow-hidden">
@@ -42,7 +71,7 @@ const HeroClip = () => {
           />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
