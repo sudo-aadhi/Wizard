@@ -4,6 +4,7 @@ import LightRays from "@/app/components/rays/LightRays";
 import Badge from "@/app/components/badge/Badge";
 import Hero from "@/app/components/hero/Hero";
 import Keyboard from "../keyboard/Keyboard";
+import Brands from "../brands/Brands";
 
 const Origin = () => {
   return (
@@ -11,7 +12,7 @@ const Origin = () => {
       <LightRays stagger={true} />
       <Badge />
       <Hero />
-      <Keyboard />
+      <Brands />
     </div>
   );
 };
