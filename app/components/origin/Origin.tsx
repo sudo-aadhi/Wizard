@@ -5,6 +5,7 @@ import Badge from "@/app/components/badge/Badge";
 import Hero from "@/app/components/hero/Hero";
 import Brands from "@/app/components/brands/Brands";
 import HeroClip from "@/app/components/heroclip/HeroClip";
+import Section from "@/app/components/section/Section";
 
 const Origin = () => {
   return (
@@ -14,6 +15,7 @@ const Origin = () => {
       <Hero />
       <HeroClip />
       <Brands />
+      <Section />
     </div>
   );
 };
