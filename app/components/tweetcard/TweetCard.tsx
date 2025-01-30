@@ -9,8 +9,8 @@ const TweetCard = () => {
         <div className="flex items-center gap-3">
           <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white/10 overflow-hidden">
             <Image
-              src={"/"}
-              alt={`by`}
+              src={"https://i.ibb.co/8nWvTgDW/ashirvad.png"}
+              alt={``}
               draggable="false"
               width={40}
               height={40}
@@ -59,33 +59,34 @@ const TweetCard = () => {
           Building front end is chaos
         </p>
         <div className="flex items-start">
-          <div className="flex items-center justify-center p-2 w-[174px] h-[45px] bg-[#26262A] rounded-tl-[10px] rounded-tr-[10px] rounded-br-[10px]">
+          <div className="flex items-center justify-center p-2 w-[174px] h-[45px] bg-[#26262A] rounded-tl-[10px] rounded-tr-[10px] rounded-br-[10px] shadow-md">
             <p className="text-[12px] font-inter font-light text-left">
               Any savior ui libraries out there ?
             </p>
           </div>
         </div>
         <div className="flex flex-col items-end space-y-1">
-          <div className="flex items-center justify-center p-2 w-[70px] h-[32px] bg-[#1E8EFE] rounded-tl-[10px] rounded-tr-[10px] rounded-bl-[10px]">
+          <div className="flex items-center justify-center p-2 w-[70px] h-[32px] bg-[#1E8EFE] rounded-tl-[10px] rounded-tr-[10px] rounded-bl-[10px] shadow-lg shadow-blue-500/50">
             <p className="text-[12px] font-inter font-light">wizard ui</p>
           </div>
+
           <p className="text-[8px] font-inter text-white opacity-25">
             Delivered
           </p>
         </div>
         <div className="flex flex-col items-start space-y-1">
-          <div className="flex items-center justify-center p-2 w-[100px] h-[30px] bg-[#26262A] rounded-full">
+          <div className="flex items-center justify-center p-2 w-[100px] h-[30px] bg-[#26262A] rounded-full shadow-md">
             <p className="text-[12px] font-inter font-light text-left">
               Holy fuck bro
             </p>
           </div>
-          <div className="flex items-center justify-center gap-2 p-2 w-[120px] h-[30px] bg-[#26262A] rounded-full">
+          <div className="flex items-center justify-center gap-2 p-2 w-[120px] h-[30px] bg-[#26262A] rounded-full shadow-md">
             <p className="text-[12px] font-inter font-light text-left">
               this is pure magic
             </p>
           </div>
           <p className="text-[30px]">😭😭</p>
-          <div className="flex items-center justify-center gap-2 p-2 w-[210px] h-[30px] bg-[#26262A] rounded-full">
+          <div className="flex items-center justify-center gap-2 p-2 w-[210px] h-[30px] bg-[#26262A] rounded-full shadow-md">
             <p className="text-[12px] font-inter font-light text-left">
               let’s say goodbye to other libraries
             </p>

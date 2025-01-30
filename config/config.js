@@ -161,13 +161,13 @@ export const BrandVectorProp = [
 export const Feedbacks = [
   [
     {
-      profile: "",
+      profile: "https://i.ibb.co/ksszg8Vt/devu.png",
       name: "Devika NP",
       username: "devik4ah",
       feedback: `This React animated component library is the best thing I've used in a while ✨. The animations are buttery smooth, and the customization options are endless. I just integrated it into a project, and it worked flawlessly on the first try! 🚀 Can't recommend it enough for anyone working on high-performance UIs.`,
     },
     {
-      profile: "",
+      profile: "https://i.ibb.co/p6VqR1Rn/danny.png",
       name: "Danny Parker",
       username: "danny",
       feedback: `Developers should easily be 2x, if not 3x, more productive with the right tools. 🚀
@@ -179,13 +179,13 @@ The seamless integration, intuitive APIs, and incredible customization options m
 It’s not just about saving time—it’s about elevating the entire development process. 🔥`,
     },
     {
-      profile: "",
+      profile: "https://i.ibb.co/Q7ZfGHZ4/marcus.png",
       name: "Marquez Veira",
       username: "codermark",
       feedback: `NO  OTHER OPTIONS CHOOSE THIS MASTERPIECE, TOTALLY WORTH IT 🔥`,
     },
     {
-      profile: "",
+      profile: "https://i.ibb.co/ZzsDGKPM/jayadeep.png",
       name: "TJ Jayadeep",
       username: "jayan829",
       feedback: `Every blood and sweat of the Front end engineer is inside this component library, now words , others have 0% chance to stay beside , well done`,
@@ -193,7 +193,7 @@ It’s not just about saving time—it’s about elevating the entire developmen
   ],
   [
     {
-      profile: "",
+      profile: "https://i.ibb.co/G34wNhzB/sam.png",
       name: "Sam Whitmore",
       username: "switmore",
       feedback: `Started using the React animated component library yesterday, and I'm blown away. 🤯 It's how modern UI should feel. Smooth animations and ease of use. ✅
@@ -202,7 +202,7 @@ It’s not just about saving time—it’s about elevating the entire developmen
 TBH, This is what i actually wished for 🔮`,
     },
     {
-      profile: "",
+      profile: "https://i.ibb.co/5WKkMYsf/nick.png",
       name: "Nick Carter",
       username: "nickthecoder",
       feedback: `React developers, take note!
@@ -214,7 +214,7 @@ Pair it with other developer tools like GPT-4 or Copilot for maximum impact. It�
   ],
   [
     {
-      profile: "",
+      profile: "https://i.ibb.co/Kc5XyCTP/sully.png",
       name: "Sully",
       username: "sullyomarr",
       feedback: `Fucking Hell 😲🔥🧯
@@ -222,7 +222,7 @@ Pair it with other developer tools like GPT-4 or Copilot for maximum impact. It�
 React animations + this library = illegal levels of productivity. ⚡ Best animation toolkit by far. 🏆 The pre-built components are a lifesaver, but the real power is in how easy it is to customize and chain animations together. Perfect for complex projects!`,
     },
     {
-      profile: "",
+      profile: "https://i.ibb.co/9kRxY6Cr/matt.png",
       name: "Matt Shumer",
       username: "matt91",
       feedback: `From the moment I used it, everything just felt right. ✨ The pre-built components are incredibly polished, and the ability to customize every detail means no two UIs look the same. 🛠️ 
@@ -232,13 +232,13 @@ Whether it's a simple hover effect or a complex multi-step animation, this libra
 What truly stands out is how it simplifies creating high-performance animations. The transitions are buttery smooth, even on low-end devices, thanks to built-in optimizations. 🧈 It's responsive out of the box, making it perfect for creating stunning experiences across all screen sizes. 🎯`,
     },
     {
-      profile: "",
+      profile: "https://i.ibb.co/cXC2Yn9Z/anan.png",
       name: "Anand Patel",
       username: "heyanan4d",
       feedback: `Loving this React animated component library – it's becoming a key part of my workflow. 🌟 The combination of ease of use and powerful capabilities has made my design-to-development pipeline smoother than ever.`,
     },
     {
-      profile: "",
+      profile: "https://i.ibb.co/yBPD1cCr/carlos.png",
       name: "Carlos Huen",
       username: "thecarloshuen.com",
       feedback: `This library makes React feel limitless. The way it handles complex animation logic without breaking a sweat is bloody incredible.`,

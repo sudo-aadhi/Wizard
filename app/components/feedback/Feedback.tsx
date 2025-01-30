@@ -1,7 +1,26 @@
+"use client";
 import React from "react";
 import FeedbackCard from "@/app/components/feedbackcard/FeedbackCard";
 import { Feedbacks } from "@/config/config";
 import TweetCard from "../tweetcard/TweetCard";
+import Image from "next/image";
+import { motion } from "framer-motion";
+
+const containerVariants = {
+  hidden: { opacity: 0, y: 10, filter: "blur(2px)" },
+  visible: (i = 1) => ({
+    opacity: 1,
+    y: 0,
+    filter: "blur(0px)",
+    transition: {
+      delay: 0.5 * i,
+      staggerChildren: 0.3,
+      type: "spring",
+      stiffness: 20,
+      damping: 15,
+    },
+  }),
+};
 
 const Feedback = () => {
   return (
@@ -51,29 +70,37 @@ const Feedback = () => {
             Loved By Developers
           </h3>
           <p className="font-inter w-[480px] text-center text-[17px] opacity-25 ">
-            we are proud to have tons of thousands of developers all over the
+            We are proud to have tons of thousands of developers all over the
             world to be more efficient
           </p>
         </div>
       </div>
-      <div className="absolute top-[25rem] flex items-center justify-center gap-[22px] w-full h-[1100px]">
-        <div className="flex flex-col gap-[33px] w-[297px] h-full">
-          {Feedbacks[0].map((feed, idx) => {
-            return <FeedbackCard key={idx} {...feed} lastIndex={3} id={idx} />;
-          })}
-        </div>
-        <div className="flex flex-col gap-[33px] w-[297px] h-full">
-          {Feedbacks[1].map((feed, idx) => {
-            return <FeedbackCard key={idx} {...feed} lastIndex={2} id={idx} />;
-          })}
-          <TweetCard />
-        </div>
-        <div className="flex flex-col gap-[33px] w-[297px] h-full">
-          {Feedbacks[2].map((feed, idx) => {
-            return <FeedbackCard key={idx} {...feed} lastIndex={3} id={idx} />;
-          })}
-        </div>
-      </div>
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        className="absolute top-[25rem] flex items-center justify-center gap-[22px] w-full h-[1100px]"
+      >
+        {Feedbacks.map((group, index) => (
+          <motion.div
+            key={index}
+            className="flex flex-col gap-[33px] w-[297px] h-full"
+            variants={containerVariants}
+            custom={index}
+          >
+            {group.map((feed, idx) => (
+              <motion.div
+                key={idx}
+                variants={containerVariants}
+                className="flex items-center justify-center"
+              >
+                <FeedbackCard {...feed} lastIndex={3} id={idx} />
+              </motion.div>
+            ))}
+            {index === 1 && <TweetCard />}
+          </motion.div>
+        ))}
+      </motion.div>
     </div>
   );
 };
