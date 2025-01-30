@@ -157,3 +157,91 @@ export const BrandVectorProp = [
     },
   },
 ];
+
+export const Feedbacks = [
+  [
+    {
+      profile: "",
+      name: "Devika NP",
+      username: "devik4ah",
+      feedback: `This React animated component library is the best thing I've used in a while ✨. The animations are buttery smooth, and the customization options are endless. I just integrated it into a project, and it worked flawlessly on the first try! 🚀 Can't recommend it enough for anyone working on high-performance UIs.`,
+    },
+    {
+      profile: "",
+      name: "Danny Parker",
+      username: "danny",
+      feedback: `Developers should easily be 2x, if not 3x, more productive with the right tools. 🚀
+
+This React animated component library sets a new standard for efficiency and creativity. Pair it with tools like Copilot, GPT-4 for Q&A, and advanced code review systems to supercharge your workflow. 💡
+
+The seamless integration, intuitive APIs, and incredible customization options make it a must-have for developers who want to craft stunning, high-performance UIs.
+
+It’s not just about saving time—it’s about elevating the entire development process. 🔥`,
+    },
+    {
+      profile: "",
+      name: "Marquez Veira",
+      username: "codermark",
+      feedback: `NO  OTHER OPTIONS CHOOSE THIS MASTERPIECE, TOTALLY WORTH IT 🔥`,
+    },
+    {
+      profile: "",
+      name: "TJ Jayadeep",
+      username: "jayan829",
+      feedback: `Every blood and sweat of the Front end engineer is inside this component library, now words , others have 0% chance to stay beside , well done`,
+    },
+  ],
+  [
+    {
+      profile: "",
+      name: "Sam Whitmore",
+      username: "switmore",
+      feedback: `Started using the React animated component library yesterday, and I'm blown away. 🤯 It's how modern UI should feel. Smooth animations and ease of use. ✅
+
+
+TBH, This is what i actually wished for 🔮`,
+    },
+    {
+      profile: "",
+      name: "Nick Carter",
+      username: "nickthecoder",
+      feedback: `React developers, take note!
+This animated component library is a productivity powerhouse. ⚡
+
+ The pre-built animations save hours of coding time, while the ability to customize every detail ensures your UI feels unique.
+Pair it with other developer tools like GPT-4 or Copilot for maximum impact. It’s easily one of the most essential libraries in my toolkit. 🏆`,
+    },
+  ],
+  [
+    {
+      profile: "",
+      name: "Sully",
+      username: "sullyomarr",
+      feedback: `Fucking Hell 😲🔥🧯
+
+React animations + this library = illegal levels of productivity. ⚡ Best animation toolkit by far. 🏆 The pre-built components are a lifesaver, but the real power is in how easy it is to customize and chain animations together. Perfect for complex projects!`,
+    },
+    {
+      profile: "",
+      name: "Matt Shumer",
+      username: "matt91",
+      feedback: `From the moment I used it, everything just felt right. ✨ The pre-built components are incredibly polished, and the ability to customize every detail means no two UIs look the same. 🛠️ 
+
+Whether it's a simple hover effect or a complex multi-step animation, this library handles it effortlessly. 🎥
+
+What truly stands out is how it simplifies creating high-performance animations. The transitions are buttery smooth, even on low-end devices, thanks to built-in optimizations. 🧈 It's responsive out of the box, making it perfect for creating stunning experiences across all screen sizes. 🎯`,
+    },
+    {
+      profile: "",
+      name: "Anand Patel",
+      username: "heyanan4d",
+      feedback: `Loving this React animated component library – it's becoming a key part of my workflow. 🌟 The combination of ease of use and powerful capabilities has made my design-to-development pipeline smoother than ever.`,
+    },
+    {
+      profile: "",
+      name: "Carlos Huen",
+      username: "thecarloshuen.com",
+      feedback: `This library makes React feel limitless. 🚀 The way it handles complex animation logic without breaking a sweat is incredible.`,
+    },
+  ],
+];
