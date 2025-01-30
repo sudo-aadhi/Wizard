@@ -241,7 +241,7 @@ What truly stands out is how it simplifies creating high-performance animations.
       profile: "",
       name: "Carlos Huen",
       username: "thecarloshuen.com",
-      feedback: `This library makes React feel limitless. 🚀 The way it handles complex animation logic without breaking a sweat is incredible.`,
+      feedback: `This library makes React feel limitless. The way it handles complex animation logic without breaking a sweat is bloody incredible.`,
     },
   ],
 ];
