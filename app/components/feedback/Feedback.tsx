@@ -24,7 +24,7 @@ const containerVariants = {
 
 const Feedback = () => {
   return (
-    <div className="absolute top-[5754px] flex flex-col items-center w-[935px] h-[1500px]">
+    <div className="absolute top-[4532px] flex flex-col items-center w-[935px] h-[1500px]">
       <div className="flex items-center justify-center w-[650px] h-[623.33px]">
         <svg
           width="650"

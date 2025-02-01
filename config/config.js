@@ -245,3 +245,48 @@ What truly stands out is how it simplifies creating high-performance animations.
     },
   ],
 ];
+
+export const FooterLinks = [
+  [
+    {
+      name: "Features",
+      link: "/",
+    },
+    {
+      name: "About",
+      link: "/",
+    },
+    {
+      name: "Updates",
+      link: "/",
+    },
+  ],
+  [
+    {
+      name: "Pricing",
+      link: "/",
+    },
+    {
+      name: "Docs",
+      link: "/",
+    },
+    {
+      name: "Contact Us",
+      link: "/",
+    },
+  ],
+  [
+    {
+      name: "Sign up",
+      link: "/",
+    },
+    {
+      name: "Login",
+      link: "/",
+    },
+    {
+      name: "Subscriptions",
+      link: "/",
+    },
+  ],
+];
